@@ -13,7 +13,7 @@
         android:layout_height="177dp"
         android:background="@drawable/rectangle_profile_background"
         android:orientation="vertical"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/profile"
@@ -56,8 +56,7 @@
         android:rowCount="3"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toTopOf="@+id/linearLayout">
 
         <TextView
             android:layout_row="0"
@@ -118,8 +117,7 @@
         android:layout_marginEnd="16dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="@id/linearLayout"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <TextView
             android:id="@+id/city"
@@ -129,8 +127,7 @@
             android:fontFamily="@font/roboto"
             android:text="Город"
             android:textColor="@color/gray_text"
-            android:textSize="14sp"
-            tools:ignore="MissingConstraints" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/cityName"
@@ -140,8 +137,7 @@
             android:fontFamily="@font/roboto"
             android:text="Саратов"
             android:textColor="@color/black"
-            android:textSize="14sp"
-            tools:ignore="MissingConstraints" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/aboutUser"
@@ -151,8 +147,7 @@
             android:fontFamily="@font/roboto"
             android:text="О себе"
             android:textColor="@color/gray_text"
-            android:textSize="14sp"
-            tools:ignore="MissingConstraints" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/aboutUserStory"
@@ -162,8 +157,7 @@
             android:fontFamily="@font/roboto"
             android:text="@string/aboutUserStory"
             android:textColor="@color/black"
-            android:textSize="14sp"
-            tools:ignore="MissingConstraints" />
+            android:textSize="14sp" />
 
     </LinearLayout>
 
